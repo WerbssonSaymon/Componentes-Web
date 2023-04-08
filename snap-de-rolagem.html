@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap rolagem</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            width: 100%;
+			height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #c9cccc;
+        }
+        .container {
+            display: flex;
+            overflow-x: scroll;
+            width: 500px;
+            height: 600px;
+            border: 5px solid rgb(77, 71, 71);
+            border-radius: 10px;
+            padding: 10PX;
+            margin: 10px auto;
+            scroll-snap-type: x mandatory;
+            scroll-padding: 10px;
+            gap: 10px;
+        }
+        .container .item {
+            flex: 0 0 95%;
+            padding: 20px;
+            border-radius: 30px;
+            scroll-snap-align: start;
+        }
+        h1 {
+            padding: 15px 0;
+        }
+        p {
+            text-align: justify;
+        }
+        .one {
+            background: linear-gradient(#e66465, #9198e5);
+        }
+        .two {
+            background: linear-gradient(#eb0c0c, #e2940cf9);
+        }
+        .tree {
+            background: linear-gradient(#2ebccf, #1252e6);
+        }
+        .four {
+            background: linear-gradient(#16d946, #c35cdf);
+        }
+        .five {
+            background: linear-gradient(#e57989, #e934c8b7);
+        }
+        .six {
+            background: linear-gradient(#b6bebe, #7799e9);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        <div class="item two">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        <div class="item tree">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        <div class="item four">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        <div class="item five">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        <div class="item six">
+            <h1>O que é Lorem Ipsum?</h1>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século XVI,
+             quando um impressor desconhecido pegou uma bandeja de tipos
+              e os embaralhou para fazer um livro de modelos de tipos.
+               Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente
+                 inalterado. Se popularizou na década de 60, quando a Letraset
+                  lançou decalques contendo passagens de Lorem Ipsum, e mais
+                   recentemente quando passou a ser integrado a softwares de
+                    editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+    </div>
+</body>
+</html>
