@@ -6,4 +6,5 @@
 	<li>Botão Neon -- Canal https://www.youtube.com/@opensource7408</li>
 	<li>Relógio -- TikTok @normalcoding</li>
 	<li>Snap de rolagem -- TikTok @axelllearning</li>
+	<li>Div que muda de cor e o aredondamento das bordas -- TikTok @hanzanabulsi259</li>
  </ul>
