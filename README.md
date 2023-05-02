@@ -8,4 +8,5 @@
 	<li>Snap de rolagem -- TikTok @axelllearning</li>
 	<li>Div que muda de cor e o aredondamento das bordas -- TikTok @hanzanabulsi259</li>
 	<li>Input com mudança de cor do cursor -- TikTok @software__engineer</li>
+	<li>Botão com hover para borda e uso de seletor (is) -- TikTok @zero_one0.1</li>
  </ul>
