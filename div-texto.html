@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Div de texto animada</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+                font-size: 40pt;
+			}
+			body {
+				width: 100%;
+				height: 100vh;
+				background: black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .letter {
+                transition: 0.8s;
+                transform: translateX(0);
+                color: #ffffff; 
+            }
+            .letter:hover {
+                transform: translateY(-1rem);
+                color: aqua;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+            <div class="letter">D</div>
+            <div class="letter">E</div>
+            <div class="letter">V</div>
+            <div class="letter">L</div>
+            <div class="letter">A</div>
+            <div class="letter">N</div>
+            <div class="letter">D</div>
+        </div>
+	</body>
+</html>
